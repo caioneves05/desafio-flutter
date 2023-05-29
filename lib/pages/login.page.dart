@@ -176,7 +176,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
                 ElevatedButton(
-                  onPressed: login, // Chama a função login
+                  onPressed: login,
                   child: Text('LOGIN', style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(255, 36, 36, 36),
