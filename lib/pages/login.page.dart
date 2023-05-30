@@ -20,6 +20,8 @@ class _LoginPageState extends State<LoginPage> {
     final url = 'https://desafio-nodejs.herokuapp.com/user/login';
 
     var body = json.encode({
+      //LOGIN: caio@gmail.com
+      //PASSWORD: caio
       'email': emailController.text,
       'password': passwordController.text
     });
